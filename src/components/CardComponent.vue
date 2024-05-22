@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-[#fff] rounded-[16px] flex flex-col items-center gap-[20px] p-[30px] shadow-2xl	">
-                      <h3 class="text-center text-[22px] font-bold	">{{ props.data.title }}</h3>
+    <div class="card bg-[#fff] rounded-[16px] flex flex-col items-center gap-[20px] p-[30px]">
+                      <h3 class="text-center text-[22px] font-bold">{{ props.data.title }}</h3>
                         <img src="../images/Line 368.svg" alt="">
                       <div class="font-medium text-left">
                         <p v-for="(text,i) in props.data.texts" :key="i"><img src="../images/Vector.svg" alt="" class="inline"> {{ text }}</p>
@@ -25,5 +25,14 @@ const props=defineProps({
 
 
 <style scope>
+h3{
+  transition: transform 0.5s
 
+}
+.card{
+  box-shadow: 0px 0px 17px 0px #00000017;
+}
+.card:hover h3{
+  transform: scale(1.6);
+}
 </style>
