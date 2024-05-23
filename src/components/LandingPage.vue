@@ -42,7 +42,7 @@
         <div class="w-full">
             <div class=" bg-[#E63ABE0A] pt-[100px] max-[640px]:pt-[30px] w-full  pl-[100px] max-[800px]:pl-[40px] ">
                 <div class="main border-dashed  flex items-center justify-center relative gap-[150px]">
-                    <div class="absolute left-[-30px] min-[641px]:w-[60px] min-[641px]:h-[60px]   border-[6px] max-[1280px]:pl-[15px]  max-[1280px]:pr-[15px] max-[1280px]:text-[30px] max-[1280px]:border-[6px] max-[1280px]:left-[-31px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[40px] max-[640px]:text-[24px] max-[640px]:pl-[10px]  max-[640px]:pr-[10px]  max-[640px]:left-[-21px]  max-[640px]:top-[15px] max-[640px]:h-[42px]">
+                    <div class="absolute left-[-30px] min-[641px]:w-[60px] min-[641px]:h-[60px]   border-[8px] max-[1280px]:px-[15px]    max-[1280px]:text-[35px]  max-[640px]:border-[6px] max-[1280px]:left-[-31px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[40px] max-[640px]:text-[24px] max-[640px]:pl-[10px]  max-[640px]:pr-[10px]  max-[640px]:left-[-21px]  max-[640px]:top-[15px] max-[640px]:h-[42px] font-medium flex justify-center items-center pt-[4px]">
                         1
                     </div>
                     <div class="flex items-center min-[1100px]:gap-[150px] flex-wrap min-[1101px]:flex-nowrap w-full">
@@ -62,7 +62,7 @@
 
             <div class="pl-[100px]  bg-[#25BCF80A]  w-full  max-[800px]:pl-[40px]">
                 <div class="main border-dashed h-full relative flex items-center justify-center gap-[30px] pt-[100px]  pb-[150px] max-[800px]:pb-[50px] max-[1100px]:pt-[40px]">
-                    <div class="absolute left-[-32px]  top-[39%] min-[641px]:w-[60px] min-[641px]:h-[60px] border-[6px]  max-[1280px]:pl-[15px] max-[1280px]:pr-[15px] max-[1280px]:text-[30px] max-[1280px]:border-[6px] max-[1280px]:left-[-32px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white  max-[1100px]:top-[55px] max-[640px]:text-[24px] max-[640px]:pl-[10px]  max-[640px]:pr-[10px]  max-[640px]:left-[-25px]  max-[640px]:top-[60px] ">
+                    <div class="absolute font-medium left-[-32px]  top-[39%] min-[641px]:w-[60px] min-[641px]:h-[60px] border-[8px]   max-[1280px]:text-[35px] max-[640px]:border-[6px] max-[1280px]:left-[-32px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white  max-[1100px]:top-[55px] max-[640px]:text-[24px] max-[640px]:px-[10px]  max-[640px]:left-[-25px]  max-[640px]:top-[60px] flex justify-center items-center">
                         2
                     </div>
                         <div class="flex items-center  max-[1100px]:gap-[50px] gap-[100px]  w-full max-[1100px]:flex-wrap max-[640px]:gap-[20px]  ">
@@ -90,7 +90,7 @@
 
             <div class="bg-[#FF68230A] pl-[100px]   w-full  pl-[100px] max-[800px]:pl-[40px]">
                 <div class="main border-dashed h-full relative flex items-center justify-center  pt-[30px]">
-                    <div class="absolute left-[-32px] top-[45%] min-[641px]:w-[60px] min-[641px]:h-[60px] border-[6px]  max-[1280px]:pl-[15px]  max-[1280px]:pr-[15px] max-[1280px]:text-[30px]  max-[1280px]:left-[-30px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[40px] max-[640px]:text-[24px] max-[640px]:pl-[10px]  max-[640px]:pr-[10px]  max-[640px]:left-[-23px]  max-[640px]:top-[30px]">
+                    <div class="absolute font-medium left-[-32px] top-[45%] min-[641px]:w-[60px] min-[641px]:h-[60px] border-[8px]  max-[1280px]:px-[8px]  max-[640px]:border-[6px] max-[1280px]:text-[35px]  max-[1280px]:left-[-30px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[40px] max-[640px]:text-[24px] max-[640px]:pl-[10px]  max-[640px]:pr-[10px]  max-[640px]:left-[-25px]  max-[640px]:top-[30px] flex justify-center items-center min-[641px]:pt-[4px]">
                         3
                     </div>
                     <div class="flex items-center  w-full min-[1100px]:gap-[150px] flex-wrap min-[1101px]:flex-nowrap">
@@ -110,7 +110,7 @@
 
             <div class="bg-[#25BCF80A]  w-full  pl-[100px] max-[800px]:pl-[40px]">
                 <div class="main border-dashed h-full max-[640px]:h-[170px] relative flex flex-col  gap-[80px] pt-[120px] max-[1100px]:pt-[50px] pb-[100px]">
-                    <div class="absolute left-[-33px] border-[6px] max-[1280px]:pl-[15px] min-[641px]:w-[60px] min-[641px]:h-[60px] max-[1280px]:pr-[15px] max-[1280px]:text-[30px] max-[1280px]:border-[6px] max-[1280px]:left-[-32px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[60px] max-[640px]:text-[24px] max-[640px]:pl-[10px]  max-[640px]:pr-[10px]  max-[640px]:left-[-25px]  max-[640px]:top-[70px]">
+                    <div class="absolute font-medium left-[-31px] border-[8px] max-[1280px]:pr-[5px] min-[641px]:w-[60px] min-[641px]:h-[60px]  max-[1280px]:text-[35px] max-[640px]:border-[6px] max-[1280px]:left-[-32px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[60px] max-[640px]:text-[24px] max-[640px]:px-[8px]  max-[640px]:left-[-25px]  max-[640px]:top-[70px] flex justify-center items-center min-[641px]:pt-[4px] ">
                         4
                     </div>
                 <div class="max-w-[909px] max-[640px]:max-w-[256px] ml-[80px] max-[640px]:ml-[30px] flex flex-col gap-[16px] max-[640px]:gap-[8px]">
@@ -135,8 +135,8 @@
 
 
             <div class="pt-[80px] pb-[100px] max-[640px]:pb-[50px] relative overflow-hidden	">
-                <div class="w-[32%] h-[560px] bg-[#FFFDEC] absolute z-[-20] top-0 left-[-12%] rounded-[50%] max-[640px]:hidden"></div>
-                <div class="w-[32%] h-[560px] bg-[#FFFDEC] absolute z-[-20] bottom-0 right-[-12%] rounded-[50%] max-[640px]:h-[200px] max-[640px]:bottom-[70px]"></div>
+                <div class="w-[32%] h-[560px] bg-[#FFFDEC] absolute z-[-20] top-0 left-[-12%] rounded-[50%] max-[640px]:hidden blur-2xl"></div>
+                <div class="w-[32%] h-[560px] bg-[#FFFDEC] absolute z-[-20] bottom-0 right-[-12%] rounded-[50%] max-[640px]:h-[200px] max-[640px]:bottom-[70px] blur-2xl"></div>
                 <div class="flex flex-col gap-[16px] pt-[50px] max-[640px]:pt-[25px] mb-[50px] max-[640px]:mb-[25px] max-[640px]:gap-[5px]">
                     <p class="text-[20px] text-center font-normal max-[640px]:text-[14px]	 ">Explore new options?</p>
                     <h1 class="text-[50px] font-semibold leading-[69px] text-center max-[640px]:leading-[20px] max-[640px]:text-[18px]	max-[1100px]:text-[40px]"><span class="text-[#04A777]">Start free </span>scale as you go!</h1>
@@ -163,8 +163,8 @@
 
 
             <div class="max-w-[1404px]  max-[640px]:w-[90%] bg-[#06A16E]  rounded-[50px] rounded-tl-none  m-auto my-[100px] relative min-[640px]:mt-[200px]">
-                <div class="tab bg-[#06A16E] rounded-tl-[50px] text-[29px] font-bold	text-white p-[15px] pl-[40px] absolute w-[25%] top-[-72px] z-10 max-[1200px]:w-[32%] max-[900px]:text-[20px] max-[900px]:pl-[20px] max-[900px]:top-[-59px] max-[640px]:text-[12px] max-[640px]:top-[-47px] "><p>About Us</p></div>
-                <div class="tab bg-[#ECECEC]  rounded-tl-[50px] text-[29px] font-bold	text-[#35B98E] p-[15px] pl-[60px] absolute w-[25%] top-[-73px] left-[22%] max-[1200px]:w-[32%] max-[1200px]:left-[25%] max-[900px]:text-[20px] max-[900px]:pl-[20px] max-[900px]:top-[-60px] max-[640px]:text-[12px] max-[640px]:top-[-48px] "><p>Details</p></div>
+                <div class="tab bg-[#06A16E] rounded-tl-[50px] text-[29px] font-bold	text-white p-[15px] pl-[40px] absolute w-[25%] top-[-72px] z-10 max-[1200px]:w-[32%] max-[900px]:text-[20px] max-[900px]:pl-[20px] max-[900px]:top-[-59px] max-[640px]:text-[12px] max-[640px]:top-[-47px] max-[500px]:w-[40%]"><p>About Us</p></div>
+                <div class="tab bg-[#ECECEC]  rounded-tl-[50px] text-[29px] font-bold	text-[#35B98E] p-[15px] pl-[60px] absolute w-[25%] top-[-73px] left-[22%] max-[1200px]:w-[32%] max-[1200px]:left-[25%] max-[900px]:text-[20px] max-[900px]:pl-[20px] max-[900px]:top-[-60px] max-[640px]:text-[12px] max-[640px]:top-[-48px] max-[500px]:w-[40%] max-[500px]:left-[30%] "><p>Details</p></div>
                 <div class="flex gap-[100px] p-[70px] max-[1100px]:p-[30px]">
                     <div class="max-w-[690px] flex flex-col gap-[30px] max-[640px]:gap-[15px]">
                         <h3 class="text-[40px] text-white font-medium max-[640px]:text-[23px]">Platform</h3>
@@ -197,23 +197,24 @@
                 <div class="form  min-[1100px]:w-[900px] w-full p-[32px]  flex flex-col gap-[25px]  rounded-[16px] min-[1100px]:mr-[100px]">
                     <div class="flex flex-col">
                         <label for="name" class="text-[#5B5B5B]">Name</label>
-                        <input id="name" class="h-[40px]  rounded-[5px] border-[1px] border-[#A3A3A3] p-[10px]">
+                        <input id="name" v-model="user.name" class="h-[40px]  rounded-[5px] border-[1px] border-[#A3A3A3] p-[10px] focus:ring-2 ring-[#BEBEBE]">
                     </div>
                     <div class="flex flex-col">
                         <label for="email" class="text-[#5B5B5B]">Email</label>
-                        <input id="email" class="h-[41px]  rounded-[5px] border-[1px] border-[#A3A3A3] p-[10px]">
+                        <input id="email" v-model="user.email" class="h-[41px]   rounded-[5px] border-[1px] border-[#A3A3A3] p-[10px] focus:ring-2 ring-[#BEBEBE]">
                     </div>
                     <div>
-                        <textarea placeholder="Write your message here." class="resize-none	w-full min-h-[186px] max-[640px]:min-h-[100px] border-[1px] border-[#A3A3A3] p-[15px] rounded-[5px]"></textarea>
+                        <textarea placeholder="Write your message here." v-model="user.message" class="focus:ring-2 ring-[#BEBEBE] resize-none	w-full min-h-[186px] max-[640px]:min-h-[100px] border-[1px] border-[#A3A3A3] p-[15px] rounded-[5px]"></textarea>
                     </div>
                     <div>
-                        <button class="bg-[#04A777] w-[30%] min-h-[48px] text-[16px] font-bold text-white opacity-[36%] rounded-[15px]">Send</button>
+                        <button  v-if="user.email && user.message && user.name" class="bg-[#04A777] w-[30%] min-h-[48px] text-[16px] font-bold text-white rounded-[15px]">Send</button>
+                        <button  v-else class="bg-[#04A777] w-[30%] min-h-[48px] text-[16px] font-bold text-white opacity-[36%] rounded-[15px] cursor-not-allowed" disabled>Send</button>
                     </div>
                 </div>
             </div>
             <p class="text-center text-[#5D5D5D] max-[640px]:text-[13px] pb-[30px]">© Copyright 2024 MyEstate. All rights reserved</p>
     </div>
-    </div>
+</div>
 </template>
 
 <script setup>
@@ -221,20 +222,40 @@ import 'vue3-carousel/dist/carousel.css'
 import { ImgComparisonSlider } from '@img-comparison-slider/vue';
 import { Carousel,  Pagination, Slide } from 'vue3-carousel';
 import CardComponent from './CardComponent.vue';
-
+import { reactive } from 'vue';
+const user=reactive({
+    name:'',
+    email:'',
+    message:''
+})
 const data=[
      {title:'Freemium',texts:['1 Website','500 Listings','Customized looks'],price:0,date:'/month',  },
      {title:'Starter',texts:['1 Website','500 Listings','Customized looks'],price:29,date:'/month',},
      {title:'Freemium',texts:['1 Website','500 Listings','Customized looks'],price:199,date:'/month',},
       {title:'Freemium',texts:['1 Website','500 Listings','Customized looks'],price:'Custom',date:'/month',},
  ]
- 
 </script >
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
   font-family: "Poppins", sans-serif;
+}
+.tab::after{
+    position: absolute;
+    content: 'dd';
+    width: 40%;
+    height: 70%;
+    top:-62%;
+    right: 4%;
+    background: white;
+    color: white;
+    border:5px solid;
+    border-radius: 50%
+}
+textarea:focus, input:focus{
+    outline: none;
+    border: none
 }
 .tab{
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
@@ -267,5 +288,6 @@ const data=[
 .slider-example-focus:focus {
     outline: none;
 }
+
 </style>
 

@@ -8,7 +8,13 @@
                     <img src="../images/Line 368.svg" alt="">
                     <div class="flex">
                         <span v-if="/^\d+$/.test(props.data.price)" class="text-[24px] font-bold">$</span>
-                        <p class="text-center"><span class="text-[46px] font-bold">{{ props.data.price }}</span><span v-if="/^\d+$/.test(props.price)" class="text-[16px] font-bold">/mont</span></p>
+                        <p v-if="/^\d+$/.test(props.data.price)" class="text-center">
+                          <span class="text-[46px] font-bold">{{ props.data.price }}</span>
+                          <span  class="text-[16px] font-bold">/month</span>
+                        </p>
+                        <p v-else class="text-center pt-[25px]">
+                          <span class="text-[30px] font-bold">{{ props.data.price }}</span>
+                        </p>
                     </div>
                     <button v-if="props.data.price!=0" class="text-[#04A777] border-2 border-[#04A777] rounded-[32px] text-[14px] font-semibold p-[9px] pl-[23px] pr-[23px]">Buy Now</button>
                     <button v-else class="text-[#fff] border-2 border-[#FF6823] bg-[#FF6823] rounded-[32px] text-[14px] font-semibold p-[9px] pl-[23px] pr-[23px]">Start Now</button>
