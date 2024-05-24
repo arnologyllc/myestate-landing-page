@@ -7,12 +7,12 @@
                       </div>
                     <img src="../images/Line 368.svg" alt="">
                     <div class="flex">
-                        <span v-if="/^\d+$/.test(props.data.price)" class="text-[24px] font-bold">$</span>
-                        <p v-if="/^\d+$/.test(props.data.price)" class="text-center">
+                        <span v-if="/^\d+$/.test(props.data.price)" class="text-[24px] font-bold text-[#191919]">$</span>
+                        <p v-if="/^\d+$/.test(props.data.price)" class="text-center text-[#191919]">
                           <span class="text-[46px] font-bold">{{ props.data.price }}</span>
                           <span  class="text-[16px] font-bold">/month</span>
                         </p>
-                        <p v-else class="text-center pt-[25px]">
+                        <p v-else class="text-center pt-[25px] text-[#191919]">
                           <span class="text-[30px] font-bold">{{ props.data.price }}</span>
                         </p>
                     </div>

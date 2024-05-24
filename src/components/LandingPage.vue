@@ -1,19 +1,19 @@
 <template>
     <div  class="">
-        <div class="header flex flex-col gap-[100px] max-[1350px]:gap-[60px] max-[800px]:gap-[25px] p-[30px] relative min-[1350px]:pt-[200px] pt-[80px] min-[640px]:pb-[150px]">
+        <div class="header flex flex-col gap-[100px] max-[1350px]:gap-[60px] max-[800px]:gap-[25px] p-[30px] relative min-[1350px]:pt-[200px] pt-[80px] min-[640px]:pb-[150px] min-[800px]:mx-[30px]">
                 <div class="flex items-center justify-center  w-full flex-wrap min-[800px]:flex-nowrap max-[799px]:gap-[30px]">
-                    <div class="flex flex-col gap-[15px]  max-w-[647px] max-[799px]:items-center max-[799px]:text-center"> 
+                    <div class="flex flex-col gap-[15px]  max-w-[647px] max-[799px]:items-center max-[799px]:text-center "> 
                             <img class="max-h-[116px] max-[640px]:w-[80px] max-[640px]:h-[80px] max-w-[116px]" src="../images/MyEstate.png" alt="">
-                            <h1 class="leading-[69px] max-[640px]:leading-[24px] smx:text-[56px] max-w-[647px] h-full font-semibold text-[46px] max-[1090px]:text-[20px]  max-[1090px]:leading-[23px] max-[1350px]:text-[30px] max-[1350px]:leading-[40px] max-[1090px]:leading-[35px]">Create your Website and Manage your Listings seamlessly with Us!</h1>
+                            <h1 class="leading-[69px] max-[640px]:leading-[24px] smx:text-[56px] max-w-[647px] h-full font-semibold text-[46px] max-[1090px]:text-[20px]  max-[1090px]:leading-[23px] max-[1350px]:text-[30px] max-[1350px]:leading-[40px] max-[1090px]:leading-[35px] max-[1090px]:leading-[25px]">Create your Website and Manage your Listings seamlessly with Us!</h1>
                     <button class="py-[20px] max-[893px]:py-[10px] px-[20px] max-[800px]:py-[8px] max-w-[233px] max-[640px]:text-[12px] max-[640px]:rounded-[4px] max-[640px]:py-[5px] text-[22px] max-[1090px]:text-[20px]  bg-[#04A777] max-[1090px]:px-[10px]  font-semibold	 text-white  rounded-[8px] ">Register Now</button>
                 </div>
                 <div class="w-[929px] relative">
                     <img src="../images/Camera.svg" alt="Camera" class="absolute top-[2%] left-[45%] z-10 w-[12%]">
                     <img src="../images/MacBook contents.png" alt="macbook" class="w-full h-full">
-                    <ImgComparisonSlider class="h-[85%] w-[78%] absolute top-[2.5%] left-[11%] slider-example-focus bg-black">
+                    <ImgComparisonSlider class="h-[85.4%] w-[78%] absolute top-[2.5%] left-[11%] slider-example-focus bg-black">
                         <!-- eslint-disable -->
-                        <img slot="first" src="../images/Before.jpg" class="h-full"/>
-                        <img slot="second" src="../images/After.jpg" class="h-full"/>
+                        <img slot="first" src="../images/Before1.jpg" class="h-full w-full"/>
+                        <img slot="second" src="../images/After.jpg" class="h-full w-full"/>
                         <svg slot="handle"  viewBox="0 0 55 489" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[55px] h-[489px] max-[1200px]:w-[40px] max-[640px]:w-[33px]">
                             <circle cx="27.386" cy="278.81" r="27.386" fill="#04A777"/>
                             <path d="M33.0498 273.143L38.7159 278.809L33.0498 284.475" stroke="white" stroke-width="2.3814"/>
@@ -162,7 +162,7 @@
 
 
 
-            <div class="max-w-[1404px]  max-[640px]:w-[90%] bg-[#06A16E]  rounded-[50px] rounded-tl-none  m-auto my-[100px] relative min-[640px]:mt-[200px]">
+            <div class="max-w-[1404px]  max-[640px]:w-[90%] bg-[#06A16E]  rounded-[50px] rounded-tl-none  m-auto my-[100px] relative min-[640px]:mt-[200px] max-[1500px]:mx-[20px]">
                 <div class="tab bg-[#06A16E] rounded-tl-[50px] text-[29px] font-bold	text-white p-[15px] pl-[40px] absolute w-[25%] top-[-72px] z-10 max-[1200px]:w-[32%] max-[900px]:text-[20px] max-[900px]:pl-[20px] max-[900px]:top-[-59px] max-[640px]:text-[12px] max-[640px]:top-[-47px] max-[500px]:w-[40%]"><p>About Us</p></div>
                 <div class="tab bg-[#ECECEC]  rounded-tl-[50px] text-[29px] font-bold	text-[#35B98E] p-[15px] pl-[60px] absolute w-[25%] top-[-73px] left-[22%] max-[1200px]:w-[32%] max-[1200px]:left-[25%] max-[900px]:text-[20px] max-[900px]:pl-[20px] max-[900px]:top-[-60px] max-[640px]:text-[12px] max-[640px]:top-[-48px] max-[500px]:w-[40%] max-[500px]:left-[30%] "><p>Details</p></div>
                 <div class="flex gap-[100px] p-[70px] max-[1100px]:p-[30px]">
@@ -246,9 +246,8 @@ const data=[
     content: 'dd';
     width: 40%;
     height: 70%;
-    top:-62%;
-    right: 4%;
-    background: white;
+    top:-62.8%;
+    right: 3.3%;
     color: white;
     border:5px solid;
     border-radius: 50%
