@@ -1,37 +1,22 @@
 <template>
     <div  class="">
-        <div class="header flex flex-col gap-[100px] max-[1350px]:gap-[60px] max-[800px]:gap-[25px] p-[30px] relative min-[1350px]:pt-[200px] pt-[80px] min-[640px]:pb-[150px] min-[800px]:mx-[30px]">
+        <div class="header flex flex-col gap-[70px] max-[1350px]:gap-[60px] max-[800px]:gap-[25px] p-[30px] relative min-[1350px]:pt-[200px] pt-[80px] min-[640px]:pb-[50px] min-[800px]:mx-[30px]">
                 <div class="flex items-center justify-center  w-full flex-wrap min-[800px]:flex-nowrap max-[799px]:gap-[30px]">
                     <div class="flex flex-col gap-[15px]  max-w-[647px] max-[799px]:items-center max-[799px]:text-center "> 
                             <img class="max-h-[116px] max-[640px]:w-[80px] max-[640px]:h-[80px] max-w-[116px]" src="../images/MyEstate.png" alt="">
                             <h1 class="leading-[69px] max-[640px]:leading-[24px] smx:text-[56px] max-w-[647px] h-full font-semibold text-[46px] max-[1090px]:text-[20px]  max-[1090px]:leading-[23px] max-[1350px]:text-[30px] max-[1350px]:leading-[40px] max-[1090px]:leading-[35px] max-[1090px]:leading-[25px]">Create your Website and Manage your Listings seamlessly with Us!</h1>
                     <button class="py-[20px] max-[893px]:py-[10px] px-[20px] max-[800px]:py-[8px] max-w-[233px] max-[640px]:text-[12px] max-[640px]:rounded-[4px] max-[640px]:py-[5px] text-[22px] max-[1090px]:text-[20px]  bg-[#04A777] max-[1090px]:px-[10px]  font-semibold	 text-white  rounded-[8px] ">Register Now</button>
                 </div>
-                <div class="w-[929px] relative">
+                <div class="w-[929px] relative ">
                     <img src="../images/Camera.svg" alt="Camera" class="absolute top-[2%] left-[45%] z-10 w-[12%]">
                     <img src="../images/MacBook contents.png" alt="macbook" class="w-full h-full">
-                    <ImgComparisonSlider class="h-[85.4%] w-[78%] absolute top-[2.5%] left-[11%] slider-example-focus bg-black">
-                        <!-- eslint-disable -->
-                        <img slot="first" src="../images/Before1.jpg" class="h-full w-full"/>
-                        <img slot="second" src="../images/After.jpg" class="h-full w-full"/>
-                        <svg slot="handle"  viewBox="0 0 55 489" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[55px] h-[489px] max-[1200px]:w-[40px] max-[640px]:w-[33px]">
-                            <circle cx="27.386" cy="278.81" r="27.386" fill="#04A777"/>
-                            <path d="M33.0498 273.143L38.7159 278.809L33.0498 284.475" stroke="white" stroke-width="2.3814"/>
-                            <path d="M21.7188 273.143L16.0527 278.809L21.7188 284.475" stroke="white" stroke-width="2.3814"/>
-                            <path opacity="0.05" d="M27.3857 267.006L27.3857 290.615" stroke="white" stroke-width="2.3814"/>
-                            <rect x="26" width="3" height="100%" fill="#04A777"/>
-                        </svg>
-                        <!-- eslint-enable -->
-                    </ImgComparisonSlider>
+                <BeforeAfterSlide class="h-[85.4%] w-[78%] absolute top-[2.5%] left-[11%] overflow-hidden"/>
                 </div>
             </div>    
-            <img src="../images/chevron-double-down.png" alt="chevron double down icon" class="m-auto  w-[80px] h-[80px] max-[800px]:w-[60px] max-[800px]:h-[60px] max-[640px]:w-[40px] max-[640px]:h-[40px]">
+            <img src="../images/chevron-double-down.png" alt="chevron double down icon" class="m-auto  w-[60px] h-[60px] max-[640px]:w-[40px] max-[640px]:h-[40px]">
         </div> 
 
-
-
-
-         <div class="flex flex-col gap-[16px] min-[640px]:mb-[100px] mb-[50px] mt-[150px] max-[640px]:mt-[45px]">
+         <div class="flex flex-col gap-[16px] min-[640px]:mb-[50px] mb-[30px] mt-[50px] max-[640px]:mt-[15px]">
             <p class="text-[20px] text-center font-normal	max-[1090px]:text-[18px] max-[640px]:text-[14px]">Why to register?</p>
             <h1 class="text-[50px] font-semibold leading-[69px] text-center	max-[1090px]:text-[40px] max-[1090px]:leading-[40px] max-[640px]:text-[18px] max-[640px]:leading-[20px]">To <span class="text-[#04A777]">Save</span> Time and Money</h1>
         </div>  
@@ -40,7 +25,7 @@
 
 
         <div class="w-full">
-            <div class=" bg-[#E63ABE0A] pt-[100px] max-[640px]:pt-[30px] w-full  pl-[100px] max-[800px]:pl-[40px] ">
+            <div class=" bg-[#E63ABE0A] pt-[30px] max-[640px]:pt-[30px] w-full  pl-[100px] max-[800px]:pl-[40px] ">
                 <div class="main border-dashed  flex items-center justify-center relative gap-[150px]">
                     <div class="absolute left-[-30px] min-[641px]:w-[60px] min-[641px]:h-[60px]   border-[8px] max-[1280px]:px-[15px]    max-[1280px]:text-[35px]  max-[640px]:border-[6px] max-[1280px]:left-[-31px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[40px] max-[640px]:text-[24px] max-[640px]:pl-[10px]  max-[640px]:pr-[10px]  max-[640px]:left-[-21px]  max-[640px]:top-[15px] max-[640px]:h-[42px] font-medium flex justify-center items-center pt-[4px]">
                         1
@@ -61,7 +46,7 @@
 
 
             <div class="pl-[100px]  bg-[#25BCF80A]  w-full  max-[800px]:pl-[40px]">
-                <div class="main border-dashed h-full relative flex items-center justify-center gap-[30px] pt-[100px]  pb-[150px] max-[800px]:pb-[50px] max-[1100px]:pt-[40px]">
+                <div class="main border-dashed h-full relative flex items-center justify-center gap-[30px] pt-[50px]  pb-[50px] max-[800px]:pb-[20px] max-[1100px]:pt-[40px]">
                     <div class="absolute font-medium left-[-32px]  top-[39%] min-[641px]:w-[60px] min-[641px]:h-[60px] border-[8px]   max-[1280px]:text-[35px] max-[640px]:border-[6px] max-[1280px]:left-[-32px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white  max-[1100px]:top-[55px] max-[640px]:text-[24px] max-[640px]:px-[10px]  max-[640px]:left-[-25px]  max-[640px]:top-[60px] flex justify-center items-center">
                         2
                     </div>
@@ -71,7 +56,7 @@
                                 <h3 class="text-[22px] font-semibold max-[640px]:text-[14px]"><span class="text-[#04A777]">Create </span> your listings and preview them.</h3>
                                 <p class="text-[16px] font-medium	max-[640px]:text-[12px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
                             </div>
-                            <div class="flex items-center  gap-[20%] justify-center w-full max-[1100px]:pl-[60px] max-[1100px]:pt-0 max-[640px]:pt-0 max-[640px]:gap-[30px] max-[640px]:pl-[50px]">
+                            <div class="flex items-center  gap-[20%] justify-center w-full max-[1100px]:pl-[60px] max-[1100px]:pt-0 max-[640px]:pt-0 max-[640px]:gap-[50px] max-[640px]:pl-[50px]">
 
                                 <div class="max-[1100px]:w-[80%] relative  ">
                                     <img src="../images/Norakaruyc.png" alt="Norakaruyc" class="relative z-10"> 
@@ -109,7 +94,7 @@
 
 
             <div class="bg-[#25BCF80A]  w-full  pl-[100px] max-[800px]:pl-[40px]">
-                <div class="main border-dashed h-full max-[640px]:h-[170px] relative flex flex-col  gap-[80px] pt-[120px] max-[1100px]:pt-[50px] pb-[100px]">
+                <div class="main border-dashed h-full max-[640px]:h-[170px] relative flex flex-col  gap-[80px] pt-[60px] max-[1100px]:pt-[35px] pb-[100px]">
                     <div class="absolute font-medium left-[-31px] border-[8px] max-[1280px]:pr-[5px] min-[641px]:w-[60px] min-[641px]:h-[60px]  max-[1280px]:text-[35px] max-[640px]:border-[6px] max-[1280px]:left-[-32px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[60px] max-[640px]:text-[24px] max-[640px]:px-[8px]  max-[640px]:left-[-25px]  max-[640px]:top-[70px] flex justify-center items-center min-[641px]:pt-[4px] ">
                         4
                     </div>
@@ -119,7 +104,7 @@
                 </div>
             </div>
         </div> 
-                <div class="max-[640px]:bg-[#04A7770A] pb-[100px] max-[1200px]:pb-[80px] max-[640px]:pb-[20px]"> 
+                <div class="max-[640px]:bg-[#04A7770A] pb-[50px] max-[1200px]:pb-[40px] max-[640px]:pb-[10px]"> 
                     <img src="../images/Vector Green.png" alt="" class="absolute z-[-10] w-full sm:block hidden">
                     <div class="flex justify-center items-center min-[640px]:w-[90%] w-full min-[640px]:mr-[150px]  pb-[30px] m-auto max-[640px]:pt-[30px] pt-[100px] max-[1280px]:pt-[50px] min-[640px]:gap-[2%]">
                         <div class="min-[640px]:w-full w-[68%] flex justify-end">
@@ -134,7 +119,7 @@
 
 
 
-            <div class="pt-[80px] pb-[100px] max-[640px]:pb-[50px] relative overflow-hidden	">
+            <div class="pt-[20px] pb-[50px] max-[640px]:pb-[50px] relative overflow-hidden	">
                 <div class="w-[32%] h-[560px] bg-[#FFFDEC] absolute z-[-20] top-0 left-[-12%] rounded-[50%] max-[640px]:hidden blur-2xl"></div>
                 <div class="w-[32%] h-[560px] bg-[#FFFDEC] absolute z-[-20] bottom-0 right-[-12%] rounded-[50%] max-[640px]:h-[200px] max-[640px]:bottom-[70px] blur-2xl"></div>
                 <div class="flex flex-col gap-[16px] pt-[50px] max-[640px]:pt-[25px] mb-[50px] max-[640px]:mb-[25px] max-[640px]:gap-[5px]">
@@ -162,14 +147,14 @@
 
 
 
-            <div class="max-w-[1404px]  max-[640px]:w-[90%] bg-[#06A16E]  rounded-[50px] rounded-tl-none  m-auto my-[100px] relative min-[640px]:mt-[200px] max-[1500px]:mx-[20px]">
+            <div class="max-w-[1404px]  max-[640px]:w-[90%] bg-[#06A16E]  rounded-[50px] rounded-tl-none  m-auto my-[50px] relative min-[640px]:mt-[200px] max-[1500px]:mx-[20px]">
                 <div class="tab bg-[#06A16E] rounded-tl-[50px] text-[29px] font-bold	text-white p-[15px] pl-[40px] absolute w-[25%] top-[-72px] z-10 max-[1200px]:w-[32%] max-[900px]:text-[20px] max-[900px]:pl-[20px] max-[900px]:top-[-59px] max-[640px]:text-[12px] max-[640px]:top-[-47px] max-[500px]:w-[40%]"><p>About Us</p></div>
                 <div class="tab bg-[#ECECEC]  rounded-tl-[50px] text-[29px] font-bold	text-[#35B98E] p-[15px] pl-[60px] absolute w-[25%] top-[-73px] left-[22%] max-[1200px]:w-[32%] max-[1200px]:left-[25%] max-[900px]:text-[20px] max-[900px]:pl-[20px] max-[900px]:top-[-60px] max-[640px]:text-[12px] max-[640px]:top-[-48px] max-[500px]:w-[40%] max-[500px]:left-[30%] "><p>Details</p></div>
                 <div class="flex gap-[100px] p-[70px] max-[1100px]:p-[30px]">
                     <div class="max-w-[690px] flex flex-col gap-[30px] max-[640px]:gap-[15px]">
                         <h3 class="text-[40px] text-white font-medium max-[640px]:text-[23px]">Platform</h3>
                         <p class="text-[22px] font-medium text-white leading-[35px] max-[640px]:text-[12px]	max-[640px]:leading-[19px]">MyEstate is a platform for sale and rental of real estate. The company focuses on helping people that want to sell their real estate or people that want to rent a real estate to live in.</p>
-                        <div class="bg-[#EFEFEF] min-[1101px]:hidden p-[45px] pt-[8px] flex flex-col  gap-[20px] rounded-[30px] max-[640px]:p-[20px] max-[640px]:gap-[10px]">
+                        <div class="bg-[#EFEFEF] min-[801px]:hidden p-[45px] pt-[8px] flex flex-col  gap-[20px] rounded-[30px] max-[640px]:p-[20px] max-[640px]:gap-[10px]">
                             <h3 class="text-[#06A16E] text-[40px] font-medium max-[640px]:text-[23px]">Goal</h3>
                             <p class="text-[#06A16E] text-[22px] font-medium leading-[35px] max-[640px]:text-[11px] max-[640px]:leading-[19px]">The goal was to make a convenient platform that would allow people sell or rent a real estate with ease.</p>
                         </div>
@@ -180,7 +165,7 @@
                         </div>
                         
                     </div>
-                    <div class="bg-[#EFEFEF] p-[45px] pt-[8px] flex flex-col  gap-[20px] rounded-[30px] max-w-[399px] max-[1100px]:hidden">
+                    <div class="bg-[#EFEFEF] p-[45px] pt-[8px] flex flex-col  gap-[20px] rounded-[30px] max-w-[399px] max-[800px]:hidden">
                         <h3 class="text-[#06A16E] text-[40px] font-medium">Goal</h3>
                         <p class="text-[#06A16E] text-[22px] font-medium leading-[35px]">The goal was to make a convenient platform that would allow people sell or rent a real estate with ease.</p>
                     </div>
@@ -188,7 +173,7 @@
             </div> 
 
 
-            <div class="contact max-w-full m-auto flex justify-center items-center max-[1100px]:flex-wrap w-[80%] m-auto  min-[640px]:pt-[80px] max-[640px]:pt-0 max-[1100px]:pt-[20px] pb-[200px] max-[1100px]:pb-[40px]">
+            <div class="contact max-w-full m-auto flex justify-center items-center max-[1100px]:flex-wrap w-[80%] m-auto  min-[640px]:pt-[80px] max-[640px]:pt-[30px] max-[1100px]:pt-[20px] pb-[120px] max-[1100px]:pb-[40px]">
                 <div class="flex min-[640px]:items-end items-center max-[640px]:gap-[10px] w-full ">
                     <img src="../images/Contact Us.png" alt="Contact Us" class="absolute w-[74%] max-[1100px]:w-[80%] z-[-10] ">
                     <img src="../images/Tree.png" alt="Tree" class="max-[1100px]:w-[10%] max-[1100px]:h-[10%] max-[640px]:w-[8%] max-[640px]:h-[8%]">
@@ -197,14 +182,14 @@
                 <div class="form  min-[1100px]:w-[900px] w-full p-[32px]  flex flex-col gap-[25px]  rounded-[16px] min-[1100px]:mr-[100px]">
                     <div class="flex flex-col">
                         <label for="name" class="text-[#5B5B5B]">Name</label>
-                        <input id="name" v-model="user.name" class="h-[40px]  rounded-[5px] border-[1px] border-[#A3A3A3] p-[10px] focus:ring-2 ring-[#BEBEBE]">
+                        <input id="name" v-model="user.name" class="h-[40px]  rounded-[5px] border-[1px] border-[#A3A3A3] p-[10px] focus:ring-2 ring-[#BEBEBE] focus:outline-none focus:border-none ">
                     </div>
                     <div class="flex flex-col">
                         <label for="email" class="text-[#5B5B5B]">Email</label>
-                        <input id="email" v-model="user.email" class="h-[41px]   rounded-[5px] border-[1px] border-[#A3A3A3] p-[10px] focus:ring-2 ring-[#BEBEBE]">
+                        <input id="email" v-model="user.email" class="h-[41px] focus:outline-none focus:border-none   rounded-[5px] border-[1px] border-[#A3A3A3] p-[10px] focus:ring-2 ring-[#BEBEBE]">
                     </div>
                     <div>
-                        <textarea placeholder="Write your message here." v-model="user.message" class="focus:ring-2 ring-[#BEBEBE] resize-none	w-full min-h-[186px] max-[640px]:min-h-[100px] border-[1px] border-[#A3A3A3] p-[15px] rounded-[5px]"></textarea>
+                        <textarea placeholder="Write your message here." v-model="user.message" class="focus:ring-2 focus:outline-none focus:border-none ring-[#BEBEBE] resize-none	w-full min-h-[186px] max-[640px]:min-h-[100px] border-[1px] border-[#A3A3A3] p-[15px] rounded-[5px]"></textarea>
                     </div>
                     <div>
                         <button  v-if="user.email && user.message && user.name" class="bg-[#04A777] w-[30%] min-h-[48px] text-[16px] font-bold text-white rounded-[15px]">Send</button>
@@ -212,28 +197,29 @@
                     </div>
                 </div>
             </div>
-            <p class="text-center text-[#5D5D5D] max-[640px]:text-[13px] pb-[30px]">© Copyright 2024 MyEstate. All rights reserved</p>
+            <p class="text-center text-[#5D5D5D] max-[640px]:text-[13px] min-[641px]:mb-[200px] py-[10px] bg-[#F7F7F7]">© Copyright 2024 MyEstate. All rights reserved</p>
     </div>
 </div>
 </template>
 
 <script setup>
 import 'vue3-carousel/dist/carousel.css'
-import { ImgComparisonSlider } from '@img-comparison-slider/vue';
 import { Carousel,  Pagination, Slide } from 'vue3-carousel';
 import CardComponent from './CardComponent.vue';
 import { reactive } from 'vue';
+import BeforeAfterSlide from './BeforeAfterSlide.vue';
+
 const user=reactive({
-    name:'',
-    email:'',
-    message:''
-})
-const data=[
-     {title:'Freemium',texts:['1 Website','500 Listings','Customized looks'],price:0,date:'/month',  },
-     {title:'Starter',texts:['1 Website','500 Listings','Customized looks'],price:29,date:'/month',},
-     {title:'Freemium',texts:['1 Website','500 Listings','Customized looks'],price:199,date:'/month',},
-      {title:'Freemium',texts:['1 Website','500 Listings','Customized looks'],price:'Custom',date:'/month',},
- ]
+     name:'',
+     email:'',
+     message:''
+ })
+ const data=[
+      {title:'Freemium',texts:['1 Website','500 Listings','Customized looks'],price:0,date:'/month',  },
+      {title:'Starter',texts:['1 Website','500 Listings','Customized looks'],price:29,date:'/month',},
+      {title:'Freemium',texts:['1 Website','500 Listings','Customized looks'],price:199,date:'/month',},
+       {title:'Freemium',texts:['1 Website','500 Listings','Customized looks'],price:'Custom',date:'/month',},
+  ]
 </script >
 
 <style>
@@ -251,10 +237,6 @@ const data=[
     color: white;
     border:5px solid;
     border-radius: 50%
-}
-textarea:focus, input:focus{
-    outline: none;
-    border: none
 }
 .tab{
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
@@ -284,9 +266,5 @@ textarea:focus, input:focus{
 .form{
     box-shadow: 0px 0px 17px 0px #00000017;
 }
-.slider-example-focus:focus {
-    outline: none;
-}
-
 </style>
 
