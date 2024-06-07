@@ -25,9 +25,9 @@
 
 
         <div class="w-full">
-            <div class=" bg-[#E63ABE0A] pt-[30px] max-[640px]:pt-[30px] w-full  pl-[100px] max-[800px]:pl-[40px] ">
-                <div class="main border-dashed  flex items-center justify-center relative gap-[150px]">
-                    <div class="absolute left-[-30px] min-[641px]:w-[60px] min-[641px]:h-[60px]   border-[8px] max-[1280px]:px-[15px]    max-[1280px]:text-[35px]  max-[640px]:border-[6px] max-[1280px]:left-[-31px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[40px] max-[640px]:text-[24px] max-[640px]:pl-[10px]  max-[640px]:pr-[10px]  max-[640px]:left-[-21px]  max-[640px]:top-[15px] max-[640px]:h-[42px] font-medium flex justify-center items-center pt-[4px]">
+            <div class=" bg-[#E63ABE0A]  max-[640px]:pt-[30px] w-full  pl-[100px] max-[800px]:pl-[40px] pt-[30px]">
+                <div class="box  flex items-center justify-center relative gap-[150px]">
+                    <div class="absolute left-[-30px] min-[641px]:w-[60px] min-[641px]:h-[60px]   border-[8px] max-[1280px]:px-[15px]    max-[1280px]:text-[35px]  max-[640px]:border-[6px]  border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[40px] max-[640px]:text-[24px] max-[640px]:pl-[10px]  max-[640px]:pr-[10px]  max-[640px]:left-[-22px]  max-[640px]:top-[15px] max-[640px]:h-[42px] font-medium flex justify-center items-center pt-[4px] max-[640px]:w-[45px] max-[640px]:h-[48px]">
                         1
                     </div>
                     <div class="flex items-center min-[1100px]:gap-[150px] flex-wrap min-[1101px]:flex-nowrap w-full">
@@ -45,9 +45,9 @@
 
 
 
-            <div class="pl-[100px]  bg-[#25BCF80A]  w-full  max-[800px]:pl-[40px]">
-                <div class="main border-dashed h-full relative flex items-center justify-center gap-[30px] pt-[50px]  pb-[50px] max-[800px]:pb-[20px] max-[1100px]:pt-[40px]">
-                    <div class="absolute font-medium left-[-32px]  top-[39%] min-[641px]:w-[60px] min-[641px]:h-[60px] border-[8px]   max-[1280px]:text-[35px] max-[640px]:border-[6px] max-[1280px]:left-[-32px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white  max-[1100px]:top-[55px] max-[640px]:text-[24px] max-[640px]:px-[10px]  max-[640px]:left-[-25px]  max-[640px]:top-[60px] flex justify-center items-center">
+            <div class="pl-[100px]  bg-[#25BCF80A]  w-full  max-[800px]:pl-[40px] min-[641px]:pt-[10px] pt-[5px]">
+                <div class="box h-full relative flex items-center justify-center gap-[30px] pt-[50px]  pb-[50px] max-[800px]:pb-[20px] max-[1100px]:pt-[40px]">
+                    <div class="absolute font-medium left-[-30px]  top-[39%] min-[641px]:w-[60px] min-[641px]:h-[60px] border-[8px]   max-[1280px]:text-[35px] max-[640px]:border-[6px]  border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white  max-[1100px]:top-[55px] max-[640px]:text-[24px] max-[640px]:px-[10px]  max-[640px]:left-[-22px]  max-[640px]:top-[60px] flex justify-center items-center">
                         2
                     </div>
                         <div class="flex items-center  max-[1100px]:gap-[50px] gap-[100px]  w-full max-[1100px]:flex-wrap max-[640px]:gap-[20px]  ">
@@ -73,9 +73,9 @@
 
 
 
-            <div class="bg-[#FF68230A] pl-[100px]   w-full  pl-[100px] max-[800px]:pl-[40px]">
-                <div class="main border-dashed h-full relative flex items-center justify-center  pt-[30px]">
-                    <div class="absolute font-medium left-[-32px] top-[45%] min-[641px]:w-[60px] min-[641px]:h-[60px] border-[8px]  max-[1280px]:px-[8px]  max-[640px]:border-[6px] max-[1280px]:text-[35px]  max-[1280px]:left-[-30px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[40px] max-[640px]:text-[24px] max-[640px]:pl-[10px]  max-[640px]:pr-[10px]  max-[640px]:left-[-25px]  max-[640px]:top-[30px] flex justify-center items-center min-[641px]:pt-[4px]">
+            <div class="bg-[#FF68230A] pl-[100px]   w-full  pl-[100px] max-[800px]:pl-[40px] min-[641px]:pt-[10px] pt-[5px]">
+                <div class="box h-full relative flex items-center justify-center  pt-[30px]">
+                    <div class="absolute font-medium left-[-30px] top-[45%] min-[641px]:w-[60px] min-[641px]:h-[60px] border-[8px]  max-[1280px]:px-[8px]  max-[640px]:border-[6px] max-[1280px]:text-[35px]  border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[40px] max-[640px]:text-[24px] max-[640px]:pl-[10px]  max-[640px]:pr-[10px]  max-[640px]:left-[-22px]  max-[640px]:top-[30px] flex justify-center items-center min-[641px]:pt-[4px]">
                         3
                     </div>
                     <div class="flex items-center  w-full min-[1100px]:gap-[150px] flex-wrap min-[1101px]:flex-nowrap">
@@ -93,9 +93,9 @@
 
 
 
-            <div class="bg-[#25BCF80A]  w-full  pl-[100px] max-[800px]:pl-[40px]">
-                <div class="main border-dashed h-full max-[640px]:h-[170px] relative flex flex-col  gap-[80px] pt-[60px] max-[1100px]:pt-[35px] pb-[100px]">
-                    <div class="absolute font-medium left-[-31px] border-[8px] max-[1280px]:pr-[5px] min-[641px]:w-[60px] min-[641px]:h-[60px]  max-[1280px]:text-[35px] max-[640px]:border-[6px] max-[1280px]:left-[-32px] border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[60px] max-[640px]:text-[24px] max-[640px]:px-[8px]  max-[640px]:left-[-25px]  max-[640px]:top-[70px] flex justify-center items-center min-[641px]:pt-[4px] ">
+            <div class="bg-[#04A7770A]  w-full  pl-[100px] max-[800px]:pl-[40px] min-[641px]:pt-[10px] pt-[5px]">
+                <div class="box h-full max-[640px]:h-[170px] relative flex flex-col  gap-[80px] pt-[60px] max-[1100px]:pt-[35px] pb-[100px]">
+                    <div class="absolute font-medium left-[-30px] border-[8px] max-[1280px]:pr-[5px] min-[641px]:w-[60px] min-[641px]:h-[60px]  max-[1280px]:text-[35px] max-[640px]:border-[6px]  border-[#F5900C] rounded-[500px] text-[37px] text-center bg-white max-[1100px]:top-[60px] max-[640px]:text-[24px] max-[640px]:px-[9px]  max-[640px]:left-[-22px]  max-[640px]:top-[70px] flex justify-center items-center min-[641px]:pt-[4px] ">
                         4
                     </div>
                 <div class="max-w-[909px] max-[640px]:max-w-[256px] ml-[80px] max-[640px]:ml-[30px] flex flex-col gap-[16px] max-[640px]:gap-[8px]">
@@ -104,9 +104,10 @@
                 </div>
             </div>
         </div> 
-                <div class="max-[640px]:bg-[#04A7770A] pb-[50px] max-[1200px]:pb-[40px] max-[640px]:pb-[10px]"> 
+        
+                <div class="bg-[#04A7770A] pb-[50px] max-[1200px]:pb-[40px] max-[640px]:pb-[10px]"> 
                     <img src="../images/Vector Green.png" alt="" class="absolute z-[-10] w-full sm:block hidden">
-                    <div class="flex justify-center items-center min-[640px]:w-[90%] w-full min-[640px]:mr-[150px]  pb-[30px] m-auto max-[640px]:pt-[30px] pt-[100px] max-[1280px]:pt-[50px] min-[640px]:gap-[2%]">
+                    <div class="flex justify-center items-center min-[640px]:w-[90%] w-full   pb-[30px] m-auto max-[640px]:pt-[30px] pt-[100px] max-[1280px]:pt-[50px] min-[640px]:gap-[2%] min-[640px]:mr-[200px]">
                         <div class="min-[640px]:w-full w-[68%] flex justify-end">
                             <img src="../images/phones.png" alt="phones" class="min-[640px]:w-[65%] ">
                         </div>
@@ -130,7 +131,7 @@
               <div class="flex justify-center w-full gap-[68px] flex-wrap max-[800px]:hidden">
                 <CardComponent v-for="(elm,i) in data" :key="i" :data="elm" />
               </div>
-              <Carousel class="min-[801px]:hidden ">
+              <Carousel class="min-[801px]:hidden max-[800px]:m-[auto]">
                   <Slide v-for="(elm,index) in data" :key="index" class="p-[10px]">
                       <CardComponent :data="elm"/>
                   </Slide>
@@ -197,7 +198,7 @@
                     </div>
                 </div>
             </div>
-            <p class="text-center text-[#5D5D5D] max-[640px]:text-[13px] min-[641px]:mb-[200px] py-[10px] bg-[#F7F7F7]">© Copyright 2024 MyEstate. All rights reserved</p>
+            <p class="text-center text-[#5D5D5D] max-[640px]:text-[13px]  py-[10px] bg-[#F7F7F7]">© Copyright 2024 MyEstate. All rights reserved</p>
     </div>
 </div>
 </template>
@@ -216,9 +217,9 @@ const user=reactive({
  })
  const data=[
       {title:'Freemium',texts:['1 Website','500 Listings','Customized looks'],price:0,date:'/month',  },
-      {title:'Starter',texts:['1 Website','500 Listings','Customized looks'],price:29,date:'/month',},
-      {title:'Freemium',texts:['1 Website','500 Listings','Customized looks'],price:199,date:'/month',},
-       {title:'Freemium',texts:['1 Website','500 Listings','Customized looks'],price:'Custom',date:'/month',},
+      {title:'Starter',texts:['1 Website','1000 Listings','Customized looks','Multilanguage','Custom Domain Setup'],price:29,date:'/month',},
+      {title:'Pro',texts:['1 Website','Unlimited Listings','Customized looks', 'Multilanguage','Custom Domain Setup'],price:199,date:'/month',},
+       {title:'Business',texts:['Connect with our sales team to organize a demo and get customized deal.'],price:'Custom',date:'/month',},
   ]
 </script >
 
@@ -247,9 +248,6 @@ const user=reactive({
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-.main{
-    border-left: 2px solid #686868;
-}
 .carousel__pagination-button::after {
   width: 12px;
   height: 12px;
@@ -265,6 +263,12 @@ const user=reactive({
 }
 .form{
     box-shadow: 0px 0px 17px 0px #00000017;
+}
+.box {
+background-image: repeating-linear-gradient(-9deg, #686868, #686868 23px, transparent 23px, transparent 45px, #686868 45px);
+background-size: 2px 100%;
+background-position: 0 0, 0 0, 100% 0, 0 100%;
+background-repeat: no-repeat;
 }
 </style>
 

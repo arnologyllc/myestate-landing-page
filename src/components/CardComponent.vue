@@ -2,7 +2,13 @@
   <div class="card bg-[#fff] rounded-[16px] flex flex-col items-center gap-[20px] p-[30px]">
                     <h3 class="text-center text-[22px] font-bold">{{ props.data.title }}</h3>
                       <img src="../images/Line 368.svg" alt="">
-                    <div class="font-medium text-left">
+                      <div v-if="props.data.texts.length==1" class="font-medium max-w-[195px] text-center pb-[25px]">
+                        <p><img src="../images/Vector.svg" alt="" class="inline" v-if="props.data.texts.length>1"> {{ props.data.texts[0] }}</p>
+                      </div>
+                      <div v-else-if="props.data.texts.length==3" class="font-medium text-left pb-[44px]">
+                      <p v-for="(text,i) in props.data.texts" :key="i"><img src="../images/Vector.svg" alt="" class="inline"> {{ text }}</p>
+                    </div>
+                    <div v-else class="font-medium text-left">
                       <p v-for="(text,i) in props.data.texts" :key="i"><img src="../images/Vector.svg" alt="" class="inline"> {{ text }}</p>
                     </div>
                   <img src="../images/Line 368.svg" alt="">
